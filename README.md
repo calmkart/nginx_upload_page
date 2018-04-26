@@ -12,4 +12,5 @@ gunicorn -w4 -b 0:9527 runserver:app
 ```
 
 注意，环境是python2    
-请配合nginx-upload使用   
+请配合nginx-upload使用:       
+https://github.com/calmkart/nginx_upload
